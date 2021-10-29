@@ -1,7 +1,8 @@
 import './index.css'
 
-const EmojiItem = emojis => {
-  const {id, name, imageUrl, onClickEmoji} = emojis
+const EmojiItem = props => {
+  const {resources, onClickEmoji} = props
+  const {id, name, imageUrl} = resources
 
   const changeScreenOnClick = () => {
     onClickEmoji(id)

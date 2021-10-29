@@ -22,7 +22,7 @@ class Feedback extends Component {
             <EmojiItem
               key={eachItem.id}
               resources={eachItem}
-              onClick={this.onClickEmoji}
+              onClickEmoji={this.onClickEmoji}
             />
           ))}
         </ul>
@@ -39,7 +39,7 @@ class Feedback extends Component {
         <img
           src={loveEmojiUrl}
           className="thankyou-screen-image"
-          alt="loveEmojiUrl"
+          alt="love emoji"
         />
         <h1 className="thankyou-heading">Thank You!</h1>
         <p className="thankyou-description">

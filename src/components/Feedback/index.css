@@ -47,3 +47,23 @@
   margin-top: 32px;
   padding: 0px;
 }
+.thankyou-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thankyou-screen-image {
+  width: 55px;
+}
+@media screen and (min-width: 768) {
+  .thankyou-screen-image {
+    width: 75px;
+  }
+}
+.thankyou-heading {
+  font-size: 23px;
+}
+.thankyou-description {
+  font-size: 14px;
+  text-align: center;
+}
